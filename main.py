@@ -117,7 +117,7 @@ Failed to Connect to Database : "{}" \nHost : "{}"
         opa = self.replace(ui.alineEdit.text()) ;
         opb = self.replace(ui.bLineEdit.text() ) ;
         opc = self.replace(ui.cLineEdit.text()  ) ;
-        opd = self.replace(ui.cLineEdit.text() )  ;
+        opd = self.replace(ui.dLineEdit.text() )  ;
         rightop = 'A' if ui.aradioButton.isChecked() else 'B' if ui.bradioButton.isChecked() else 'C' if ui.cradioButton.isChecked() else 'D' ;
         codesnippet = self.replace(ui.codesnippet_textedit.toPlainText()) ;
         tablename = ui.tablename_LineEdit.text() ;
